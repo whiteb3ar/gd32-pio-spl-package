@@ -181,7 +181,7 @@ typedef enum IRQn
     DMA1_Channel0_IRQn           = 56,     /*!< DMA1 channel0 global interrupt                           */
     DMA1_Channel1_IRQn           = 57,     /*!< DMA1 channel1 global interrupt                           */
     DMA1_Channel2_IRQn           = 58,     /*!< DMA1 channel2 global interrupt                           */
-    DMA1_Channel3_Channel4_IRQn  = 59,     /*!< DMA1 channel3 and channel4 global Interrupt              */
+    DMA1_Channel3_4_IRQn         = 59,     /*!< DMA1 channel3 and channel4 global Interrupt              */
 #endif /* GD32F30X_HD */
 
 #ifdef GD32F30X_XD
@@ -225,7 +225,7 @@ typedef enum IRQn
     DMA1_Channel0_IRQn           = 56,     /*!< DMA1 channel0 global interrupt                           */
     DMA1_Channel1_IRQn           = 57,     /*!< DMA1 channel1 global interrupt                           */
     DMA1_Channel2_IRQn           = 58,     /*!< DMA1 channel2 global interrupt                           */
-    DMA1_Channel3_Channel4_IRQn  = 59,     /*!< DMA1 channel3 and channel4 global interrupt              */
+    DMA1_Channel3_4_IRQn         = 59,     /*!< DMA1 channel3 and channel4 global interrupt              */
 #endif /* GD32F30X_XD */
 
 #ifdef GD32F30X_CL

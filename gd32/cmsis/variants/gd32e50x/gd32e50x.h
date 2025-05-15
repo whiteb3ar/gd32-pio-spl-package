@@ -186,7 +186,7 @@ typedef enum IRQn
     DMA1_Channel0_IRQn           = 56,     /*!< DMA1 channel0 global interrupt */
     DMA1_Channel1_IRQn           = 57,     /*!< DMA1 channel1 global interrupt */
     DMA1_Channel2_IRQn           = 58,     /*!< DMA1 channel2 global interrupt */
-    DMA1_Channel3_Channel4_IRQn  = 59,     /*!< DMA1 channel3 and channel4 global Interrupt */
+    DMA1_Channel3_4_IRQn         = 59,     /*!< DMA1 channel3 and channel4 global Interrupt */
     ENET_IRQn                    = 61,     /*!< ENET global interrupt */
     ENET_WKUP_IRQn               = 62,     /*!< ENET Wakeup interrupt */
     I2C2_EV_IRQn                 = 82,     /*!< I2C2 EV interrupt */
@@ -237,7 +237,7 @@ typedef enum IRQn
     DMA1_Channel0_IRQn           = 56,     /*!< DMA1 channel0 global interrupt */
     DMA1_Channel1_IRQn           = 57,     /*!< DMA1 channel1 global interrupt */
     DMA1_Channel2_IRQn           = 58,     /*!< DMA1 channel2 global interrupt */
-    DMA1_Channel3_Channel4_IRQn  = 59,     /*!< DMA1 channel3 and channel4 global Interrupt */
+    DMA1_Channel3_4_IRQn         = 59,     /*!< DMA1 channel3 and channel4 global Interrupt */
     CAN1_TX_IRQn                 = 63,     /*!< CAN1 TX interrupt */
     CAN1_RX0_IRQn                = 64,     /*!< CAN1 RX0 interrupt */
     CAN1_RX1_IRQn                = 65,     /*!< CAN1 RX1 interrupt */
@@ -297,7 +297,7 @@ typedef enum IRQn
     DMA1_Channel0_IRQn           = 56,     /*!< DMA1 channel0 global interrupt */
     DMA1_Channel1_IRQn           = 57,     /*!< DMA1 channel1 global interrupt */
     DMA1_Channel2_IRQn           = 58,     /*!< DMA1 channel2 global interrupt */
-    DMA1_Channel3_Channel4_IRQn  = 59,     /*!< DMA1 channel3 and channel4 global interrupt */
+    DMA1_Channel3_4_IRQn         = 59,     /*!< DMA1 channel3 and channel4 global interrupt */
     CAN1_TX_IRQn                 = 63,     /*!< CAN1 TX interrupt */
     CAN1_RX0_IRQn                = 64,     /*!< CAN1 RX0 interrupt */
     CAN1_RX1_IRQn                = 65,     /*!< CAN1 RX1 interrupt */
